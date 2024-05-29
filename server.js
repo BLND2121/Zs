@@ -42,15 +42,15 @@ client.once('ready', () => {
   
 const a1881 = new RichPresence()
 
-.setApplicationId(`1179783460135649392`)
+.setApplicationId(`1088270208579403796`)
 
 .setType(`PLAYING`)
 
-.setName(`PojavLauncher`)
+.setName(`King of Samp`)
 
 .setState(`Now Playing At ${formattedDate}`)
 
-.setAssetsLargeImage('https://cdn.discordapp.com/avatars/1179783460135649392/341a716622e9b45f70f76ada1076ae9c.webp?size=2048')
+.setAssetsLargeImage('https://cdn.discordapp.com/avatars/1088270208579403796/4ef8d670fd2ec01135273350228f088f.webp?size=2048')
 
 client.user.setActivity(a1881)
   });
