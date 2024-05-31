@@ -42,15 +42,15 @@ client.once('ready', () => {
   
 const a1881 = new RichPresence()
 
-.setApplicationId(`1178696834013728788`)
+.setApplicationId(`1245769167433502824`)
 
 .setType(`PLAYING`)
 
-.setName(`Z.E.R.O`)
+.setName(`by B.L.N.D`)
 
 .setState(`Now Playing At ${formattedDate}`)
 
-.setAssetsLargeImage('https://cdn.discordapp.com/banners/1178696834013728788/a_92afb32c4b85e02b20277a2f1b6e0277.gif?size=2048')
+.setAssetsLargeImage('https://cdn.discordapp.com/avatars/1245769167433502824/a_21bffa7c62c6c550ce8a36a0c893acca.gif?size=2048')
 
 client.user.setActivity(a1881)
   });
